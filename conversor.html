@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt=BR">
+<head>
+    
+    <link rel="stylesheet" href="conversor.css"> 
+</head>
+<body>
+    <header>
+<h1>Conversor Monetário</h1>
+    </header>
+    <section>
+<div>
+  <p1> <strong>Digite abaixo o valor em real a ser convertido.</strong></p1>
+  <br>
+  <br>
+  <input type="number" id="valor" placeholder="Insira aqui o valor em real">
+  <br>
+  <br> <strong>Para qual moeda você quer converter?</strong>
+  <br>
+  <br>
+  <input type="button"  value="Dolar" onclick="converterDolar()">
+  <input type="button"  value="Euro" onclick="converterEuro()">
+  <input type="button"  value="Libra" onclick="converterLibra()">
+         
+</p>
+          </p>
+</div>
+<div id="resultado">
+    Preencha os dados acima para ver o resultado.
+</div>
+    </section>
+    <footer>
+      <br>
+      <br>
+      <br>
+      <p2>Cotação do dia 19/09/2021</p2>
+<p>&copy; Roger Moura</p>
+    </footer>
+<script src="conversor.js"></script>
+</body>
+</html>
